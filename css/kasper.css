@@ -30,13 +30,10 @@ header.container {
     justify-content: space-between;
 }
 .container i {
-    color: black;
-}
-ul li {
-   
-   text-align: right;
-   display: block;
-   padding: 5px;
+ color: black;
+ text-align: right;
+  display: block;
+ padding: 5px;
  transition: 2s;
 }
     
