@@ -57,6 +57,9 @@ h1{
    color: #10cab7;
  text-align: center;
 }
+ul li a:hover {
+    padding-left: 25px;
+  }
 
    
 /*Start Leanding Section*/
@@ -72,22 +75,24 @@ h1{
     grid-template-columns: repeat(auto-fill , minmax(300px, 1fr));
     grid-gap: 50px;
     text-align: center;
-  padding: 50px;  
+    padding: 40px;  
 }
 .features .feat h3 {
-
-   font-weight: 800px;
-   margin: 30px 0;
-   color:#10cab7;
+font-weight: 800px;
+ margin: 30px 0;
+ color:#10cab7;
 }
-.features .feat p {
+.features .container .feat p {
     text-align: center;
     color: #333;
     font-size: 17px;
 }
 .features .feat i {
     font-size: 30px;
+    color: #333;
+    text-align: center;
 }
+
 /*End Features*/
 /*Start Services*/
 .special-heading{
@@ -127,6 +132,9 @@ font-weight: 800px;
 }
 .ser i{
     font-size: 30px;
+    color: #333;
+    text-align: center;
+   
 }
 
 /*End Services*/
